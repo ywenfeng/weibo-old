@@ -1,9 +1,15 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import "node_modules/bootstrap/scss/_alert.scss";
 
 body {
     font-size: 14px;
     font-weight: normal;
+}
+
+$navbar-color: #3c3e42;
+.navbar-inverse {
+  bockground-color: $navbar-color;
 }
 
 nav.navbar.navbar-expand-lg {
